@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.main-con {
+    width: 700px;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #aec7f1;
+}
+
+.main-con > .timer-con {
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px 5px #052333;
+}
+
+.main-con > .timer-con > h1 {
+    font-size: 50px;
+}
+
+.main-con > .button-con {
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #273853;
+    border-radius: 20px;
+    background-color: #92b7ed;
+    box-shadow: 0 0 15px 5px #052333;
+}
+
+.main-con > .button-con > .button-style {
+    padding: 15px 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+
+.main-con > .button-con > .button-style:hover {
+    box-shadow: 0 0 15px 5px #545c65;
+}
+
+.main-con > .button-con > .start-btn {background-image: linear-gradient(to left bottom, #2f6c2f, #677e67); color: white;}
+.main-con > .button-con > .start-btn:hover {background-image: linear-gradient(to left bottom, #b4c6b4, #b4c6b4); color: black;}
+.main-con > .button-con > .stop-btn {background-image: linear-gradient(to left bottom, #8c2121, #685050); color: white;}
+.main-con > .button-con > .stop-btn:hover {background-image: linear-gradient(to left bottom, #cd9191, #cd9191); color: black;}
+.main-con > .button-con > .reset-btn {background-image: linear-gradient(to left bottom, #37186a, #a595dd); color: white;}
+.main-con > .button-con > .reset-btn:hover {background-image: linear-gradient(to left bottom, #a295dc, #a295dc); color: black;}
